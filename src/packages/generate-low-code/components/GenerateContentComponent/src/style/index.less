@@ -1,0 +1,28 @@
+.form-item {
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.active-form-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-top: 5px solid #2b85e4;
+}
+
+.n-form-item-label {
+  cursor: move;
+}
+
+.n-form-item {
+  width: 100% !important;
+}
+
+.w-100 {
+  width: 100%;
+}
