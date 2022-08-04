@@ -53,6 +53,8 @@
     "pinia": "^2.0.14",
     "pinia-plugin-persist": "^1.0.0",
     "qs": "^6.10.3",
+    "sass": "^1.54.2",
+    "scss": "^0.2.4",
     "vfonts": "^0.1.0",
     "vite-plugin-md": "^0.20.2",
     "vue": "^3.2.33",

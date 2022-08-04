@@ -50,7 +50,6 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
         less: {
           modifyVars: {},
           javascriptEnabled: true,
-          additionalData: `@import "src/styles/var.less";`,
         },
       },
     },
