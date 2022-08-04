@@ -77,4 +77,3 @@ npm run build:prod
 + perf：优化相关，比如提升性能、体验
 + test：测试用例，包括单元测试、集成测试
 
-> JetBrains全家桶软件 ( Webstorm, Idea ...） ，推荐使用 Git Commit Message Helper插件
