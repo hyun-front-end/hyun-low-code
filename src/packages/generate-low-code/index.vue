@@ -2,7 +2,7 @@
     独立的一个页面，不依赖其他组件的config/type 等等
 -->
 <template>
-  <n-grid :cols="24" class="generate-flow-code-container">
+  <n-grid :cols="24" class="generate-flow-code-container h-100">
     <n-gi :span="4">
       <LeftComponent />
     </n-gi>
