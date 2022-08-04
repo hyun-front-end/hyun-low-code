@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import { setupNaive } from '@/plugins';
 import { installComponent } from '@/packages';
+import './styles/index.less';
 
 async function onMounted() {
   const app = createApp(App);

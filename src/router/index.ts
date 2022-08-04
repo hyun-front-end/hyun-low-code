@@ -4,15 +4,23 @@ import { createRouter, createWebHistory, RouterOptions, RouteRecordRaw } from 'v
 export const constantRouter: RouteRecordRaw[] = [
   {
     path: '/',
-    redirect: '/docs/button',
+    redirect: '/generate-code',
   },
+  // {
+  //   meta: {
+  //     title: '按钮',
+  //   },
+  //   name: 'Button',
+  //   path: '/docs/button',
+  //   component: () => import('@/docs/button/README.md'),
+  // },
   {
     meta: {
-      title: '按钮',
+      title: '代码生产',
     },
-    name: 'Button',
-    path: '/docs/button',
-    component: () => import('@/docs/button/README.md'),
+    name: 'GenerateCode',
+    path: '/generate-code',
+    component: () => import('@/packages/generate-low-code/index.vue'),
   },
   {
     meta: {

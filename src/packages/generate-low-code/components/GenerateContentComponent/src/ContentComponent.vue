@@ -142,6 +142,4 @@
   </NCard>
 </template>
 
-<style lang="less">
-  @import './style/index.less';
-</style>
+<style lang="scss" src="./style/index.scss"></style>
